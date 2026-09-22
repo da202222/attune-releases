@@ -1,0 +1,15 @@
+{
+  "name": "attune-releases-docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dev tooling to preview the Attune downloads documentation locally.",
+  "type": "module",
+  "scripts": {
+    "dev": "node .cursor/serve-docs.mjs",
+    "build": "node .cursor/render-docs.mjs",
+    "check": "node .cursor/render-docs.mjs --check"
+  },
+  "dependencies": {
+    "markdown-it": "14.3.2"
+  }
+}
