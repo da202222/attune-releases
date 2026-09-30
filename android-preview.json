@@ -1,15 +1,17 @@
 {
-  "version": "0.7.30-car-preview",
-  "version_code": 70032,
-  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70032/Attune-Car-Preview-0.7.30-Compat.apk",
-  "sha256": "80215fdde649eac588679c1eaab2f97f4eeef540725a7e408236d8d568f97687",
+  "version": "0.7.30-car-preview-quick-login",
+  "version_code": 70033,
+  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70033-quick-login/Attune-Car-Preview-QuickLogin-0.7.30.apk",
+  "sha256": "dead49ec2ee00eff90da4fa115661b9b6a6569469e3f586834611cacc38ddf3d",
   "signed": true,
   "channel": "preview",
   "min_sdk": 23,
-  "signing": [
+  "signature_schemes": [
     "v1",
     "v2"
   ],
-  "source_commit": "789e6ba4a6c38c692e89d928a0bf98edf3afb3df",
-  "notes": "车机兼容 Preview：Android 6.0+，v1+v2 双签名，四 ABI。"
+  "direct_remembered_login": true,
+  "biometric_optional": true,
+  "source_commit": "ab74718a965f97c7edc84a933708d711b1ac5be0",
+  "notes": "车机测试：记住账号和加密登录状态，下次直接登入；可选系统指纹/人脸/设备锁保护；不保存明文密码。"
 }
