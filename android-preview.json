@@ -1,10 +1,15 @@
 {
-  "version": "0.7.30-car-preview",
-  "version_code": 70031,
-  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70031/Attune-Car-Preview-0.7.30.apk",
-  "sha256": "6b0b364f9506a956fe9b5a4491c27b64d951970ba68d06e2b76f3890978923c7",
+  "version": "0.7.30-car-preview-compat",
+  "version_code": 70032,
+  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70032-compat/Attune-Car-Preview-Compat-0.7.30.apk",
+  "sha256": "80215fdde649eac588679c1eaab2f97f4eeef540725a7e408236d8d568f97687",
   "signed": true,
   "channel": "preview",
-  "source_commit": "fb6d9855ff461869e60f382a7e1fc8393d71ee04",
-  "notes": "车机 Preview 测试频道；固定 Preview 签名；G1 只读设备发现 + car.status.read。"
+  "min_sdk": 23,
+  "signature_schemes": [
+    "v1",
+    "v2"
+  ],
+  "source_commit": "789e6ba4a6c38c692e89d928a0bf98edf3afb3df",
+  "notes": "车机兼容 Preview：Android 6.0+，v1+v2 双签名，修复老车机解析安装包问题。"
 }
