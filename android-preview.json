@@ -1,0 +1,10 @@
+{
+  "version": "0.7.30-car-preview",
+  "version_code": 70031,
+  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70031/Attune-Car-Preview-0.7.30.apk",
+  "sha256": "6b0b364f9506a956fe9b5a4491c27b64d951970ba68d06e2b76f3890978923c7",
+  "signed": true,
+  "channel": "preview",
+  "source_commit": "fb6d9855ff461869e60f382a7e1fc8393d71ee04",
+  "notes": "车机 Preview 测试频道；固定 Preview 签名；G1 只读设备发现 + car.status.read。"
+}
