@@ -1,17 +1,15 @@
 {
-  "version": "0.7.30-car-preview-quick-login",
-  "version_code": 70033,
-  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70033-quick-login/Attune-Car-Preview-QuickLogin-0.7.30.apk",
-  "sha256": "dead49ec2ee00eff90da4fa115661b9b6a6569469e3f586834611cacc38ddf3d",
+  "version": "0.7.30-car-preview",
+  "version_code": 70034,
+  "url": "https://github.com/da202222/attune-releases/releases/download/android-car-preview-0.7.30-70034/Attune-Car-Preview-0.7.30-70034.apk",
+  "sha256": "c24fd4b23d9d4b7046b4e6854dd73aeb4f11686b059ef137e426cca3579476cc",
   "signed": true,
   "channel": "preview",
   "min_sdk": 23,
-  "signature_schemes": [
+  "signing": [
     "v1",
     "v2"
   ],
-  "direct_remembered_login": true,
-  "biometric_optional": true,
-  "source_commit": "ab74718a965f97c7edc84a933708d711b1ac5be0",
-  "notes": "车机测试：记住账号和加密登录状态，下次直接登入；可选系统指纹/人脸/设备锁保护；不保存明文密码。"
+  "source_commit": "98573c5a5f3fe5f572377921ec792d109eab1fa3",
+  "notes": "车机 Preview 70034：Android 6.0+；修复老车机字体方块；记住登录邮箱；有效加密 session 直接进入，不保存明文密码。"
 }
