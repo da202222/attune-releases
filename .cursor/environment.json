@@ -1,0 +1,17 @@
+{
+  "name": "attune-releases",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "docs-preview",
+      "command": "npm run dev",
+      "description": "Live Markdown preview of README.md at http://localhost:8080/ (re-renders on each request)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "docs-preview",
+      "port": 8080
+    }
+  ]
+}
